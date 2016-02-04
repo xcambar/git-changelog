@@ -55,8 +55,8 @@ if (process.argv.join('').replace(/\\/g,'/').indexOf('/grunt') === -1) {
     options.intro = program.intro;
   }
 
-  if (program.url){
-    options.repo_url = program.url;
+  if (program.repo_url){
+    options.repo_url = program.repo_url;
     console.log('  - With URL %s', program.url);
   }
 
